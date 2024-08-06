@@ -1,0 +1,968 @@
+lib_name: OPAMP
+cell_name: OPAMP_0
+pins: ["VDD", "GND", "NET_VIP", "NET_VIN", "NET_VO", "NET_VB_N", "NET_VB_P"]
+instances:
+  M5_0:
+    lib_name: tsmc18rf
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET_VB_N"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_VB_N"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: nch
+        prompt: Model name
+      l:
+        defVal: 1.880528609725673e-06
+        prompt: l (M)
+      w:
+        defVal: 1.5e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 1.880528609725673e-06
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 1.5e-06
+        valueType: string
+  M4_0:
+    lib_name: tsmc18rf
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET4_0"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_VB_N"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: nch
+        prompt: Model name
+      l:
+        defVal: 1.98291457286432e-07
+        prompt: l (M)
+      w:
+        defVal: 1.772e-05
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 1.98291457286432e-07
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 1.772e-05
+        valueType: string
+  M1_0:
+    lib_name: tsmc18rf
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET5_0"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_VIN"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "NET4_0"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: nch
+        prompt: Model name
+      l:
+        defVal: 1.98291457286432e-07
+        prompt: l (M)
+      w:
+        defVal: 8.86e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 1.98291457286432e-07
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 8.86e-06
+        valueType: string
+  M0_0:
+    lib_name: tsmc18rf
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET_1"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_VIP"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "NET4_0"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: nch
+        prompt: Model name
+      l:
+        defVal: 1.98291457286432e-07
+        prompt: l (M)
+      w:
+        defVal: 8.86e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 1.98291457286432e-07
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 8.86e-06
+        valueType: string
+  M3_0:
+    lib_name: tsmc18rf
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET5_0"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET5_0"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: pch
+        prompt: Model name
+      l:
+        defVal: 1.98291457286432e-07
+        prompt: l (M)
+      w:
+        defVal: 2.439215592728993e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 1.98291457286432e-07
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 2.439215592728993e-06
+        valueType: string
+  M2_0:
+    lib_name: tsmc18rf
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET_1"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET5_0"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: pch
+        prompt: Model name
+      l:
+        defVal: 1.98291457286432e-07
+        prompt: l (M)
+      w:
+        defVal: 2.439215592728993e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 1.98291457286432e-07
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 2.439215592728993e-06
+        valueType: string
+  M4_1:
+    lib_name: tsmc18rf
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET_VB_P"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_VB_P"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: pch
+        prompt: Model name
+      l:
+        defVal: 1.2641595936518162e-06
+        prompt: l (M)
+      w:
+        defVal: 1.5e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 1.2641595936518162e-06
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 1.5e-06
+        valueType: string
+  M1_1:
+    lib_name: tsmc18rf
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET_2"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET7_1"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: nch
+        prompt: Model name
+      l:
+        defVal: 5.205909770932892e-07
+        prompt: l (M)
+      w:
+        defVal: 1.5e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 5.205909770932892e-07
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 1.5e-06
+        valueType: string
+  M0_1:
+    lib_name: tsmc18rf
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET7_1"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET7_1"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: nch
+        prompt: Model name
+      l:
+        defVal: 5.205909770932892e-07
+        prompt: l (M)
+      w:
+        defVal: 1.5e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 5.205909770932892e-07
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 1.5e-06
+        valueType: string
+  M3_1:
+    lib_name: tsmc18rf
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET_2"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_VB_P"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: pch
+        prompt: Model name
+      l:
+        defVal: 2.2572864321608e-07
+        prompt: l (M)
+      w:
+        defVal: 9.81e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 2.2572864321608e-07
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 9.81e-06
+        valueType: string
+  M2_1:
+    lib_name: tsmc18rf
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET7_1"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_1"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: pch
+        prompt: Model name
+      l:
+        defVal: 2.2572864321608e-07
+        prompt: l (M)
+      w:
+        defVal: 9.81e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 2.2572864321608e-07
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 9.81e-06
+        valueType: string
+  M2_2:
+    lib_name: tsmc18rf
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET_VB_N"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_VB_N"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: nch
+        prompt: Model name
+      l:
+        defVal: 1.2524156140174506e-05
+        prompt: l (M)
+      w:
+        defVal: 1.5e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 1.2524156140174506e-05
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 1.5e-06
+        valueType: string
+  M0_2:
+    lib_name: tsmc18rf
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET_VO"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_VB_N"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: nch
+        prompt: Model name
+      l:
+        defVal: 1.4517670486747733e-06
+        prompt: l (M)
+      w:
+        defVal: 1.5e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 1.4517670486747733e-06
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 1.5e-06
+        valueType: string
+  M1_2:
+    lib_name: tsmc18rf
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET_VO"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_2"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: pch
+        prompt: Model name
+      l:
+        defVal: 2.80603015075377e-07
+        prompt: l (M)
+      w:
+        defVal: 2.85e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 2.80603015075377e-07
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 2.85e-06
+        valueType: string
+  C_2:
+    lib_name: tsmc18rf
+    cell_name: mimcap
+    instpins:
+      BOT:
+        direction: inputOutput
+        net_name: "NET_1_VO"
+        num_bits: 1
+      TOP:
+        direction: inputOutput
+        net_name: "NET_1"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: mimcap
+        prompt: Model name
+      c:
+        defVal: 0.013p
+        prompt: Capacitance(F)
+      l:
+        defVal: 30u
+        prompt: Length(M)
+      w:
+        defVal: 30u
+        prompt: Width(M)
+    inst_prop:
+      l:
+        value: 30u
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      w:
+        value: 30u
+        valueType: string
+  M2_3:
+    lib_name: tsmc18rf
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET_VB_N"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_VB_N"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: nch
+        prompt: Model name
+      l:
+        defVal: 1.240195193886043e-05
+        prompt: l (M)
+      w:
+        defVal: 1.5e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 1.240195193886043e-05
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 1.5e-06
+        valueType: string
+  M0_3:
+    lib_name: tsmc18rf
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET_1_VO"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_VB_N"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: nch
+        prompt: Model name
+      l:
+        defVal: 2.3944605496152907e-06
+        prompt: l (M)
+      w:
+        defVal: 1.5e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 2.3944605496152907e-06
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 1.5e-06
+        valueType: string
+  M1_3:
+    lib_name: tsmc18rf
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: "NET_1_VO"
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: "NET_VO"
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: "VDD"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: pch
+        prompt: Model name
+      l:
+        defVal: 2.44020100502512e-07
+        prompt: l (M)
+      w:
+        defVal: 1.5e-06
+        prompt: w (M)
+      m:
+        defVal: 1
+        prompt: Multiplier
+    inst_prop:
+      l:
+        value: 2.44020100502512e-07
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      fingers:
+        value: 1
+        valueType: string
+      w:
+        value: 1.5e-06
+        valueType: string
+  R_0:
+    lib_name: tsmc18rf
+    cell_name: rphripoly
+    instpins:
+      MINUS:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: "NET_1"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: rppolyhri
+        prompt: Model name
+      segments:
+        defVal: 92
+        prompt: Number of segments
+    inst_prop:
+      segments:
+        value: 92
+        valueType: string
+      l:
+        value: 93.5u
+        valueType: string
+      sumL:
+        value: 8602.0u
+        valueType: string
+      w:
+        value: 1u
+        valueType: string
+      sumW:
+        value: 1u
+        valueType: string
+  R_1:
+    lib_name: tsmc18rf
+    cell_name: rphripoly
+    instpins:
+      MINUS:
+        direction: inputOutput
+        net_name: "NET_2_0"
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: "NET_2"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: rppolyhri
+        prompt: Model name
+      segments:
+        defVal: 92
+        prompt: Number of segments
+    inst_prop:
+      segments:
+        value: 92
+        valueType: string
+      l:
+        value: 93.5u
+        valueType: string
+      sumL:
+        value: 8602.0u
+        valueType: string
+      w:
+        value: 1u
+        valueType: string
+      sumW:
+        value: 1u
+        valueType: string
+  C_3:
+    lib_name: tsmc18rf
+    cell_name: mimcap
+    instpins:
+      BOT:
+        direction: inputOutput
+        net_name: "GND"
+        num_bits: 1
+      TOP:
+        direction: inputOutput
+        net_name: "NET_2_0"
+        num_bits: 1
+    master_prop:
+      model:
+        defVal: mimcap
+        prompt: Model name
+      c:
+        defVal: 6.08p
+        prompt: Capacitance(F)
+      l:
+        defVal: 30u
+        prompt: Length(M)
+      w:
+        defVal: 30u
+        prompt: Width(M)
+    inst_prop:
+      l:
+        value: 30u
+        valueType: string
+      m:
+        value: 1
+        valueType: string
+      w:
+        value: 30u
+        valueType: string
+  PIN0:
+    lib_name: basic
+    cell_name: iopin
+    instpins: {}
+    master_prop:
+    inst_prop:
+  PIN1:
+    lib_name: basic
+    cell_name: iopin
+    instpins: {}
+    master_prop:
+    inst_prop:
+  PIN2:
+    lib_name: basic
+    cell_name: iopin
+    instpins: {}
+    master_prop:
+    inst_prop:
+  PIN3:
+    lib_name: basic
+    cell_name: iopin
+    instpins: {}
+    master_prop:
+    inst_prop:
+  PIN4:
+    lib_name: basic
+    cell_name: iopin
+    instpins: {}
+    master_prop:
+    inst_prop:
+  PIN5:
+    lib_name: basic
+    cell_name: iopin
+    instpins: {}
+    master_prop:
+    inst_prop:
+  PIN6:
+    lib_name: basic
+    cell_name: iopin
+    instpins: {}
+    master_prop:
+    inst_prop:

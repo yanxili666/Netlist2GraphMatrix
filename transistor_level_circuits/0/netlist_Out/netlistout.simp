@@ -1,0 +1,521 @@
+cell_name: OPAMP_0
+instances:
+  M5_0:
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET_VB_N
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_VB_N
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: nch
+    prop:
+      l: 1.880528609725673e-06
+      m: 1
+      nf: 1
+      w: 1.5e-06
+  M4_0:
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET4_0
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_VB_N
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: nch
+    prop:
+      l: 1.98291457286432e-07
+      m: 1
+      nf: 1
+      w: 1.772e-05
+  M1_0:
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET5_0
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_VIN
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: NET4_0
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: nch
+    prop:
+      l: 1.98291457286432e-07
+      m: 1
+      nf: 1
+      w: 8.86e-06
+  M0_0:
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET_1
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_VIP
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: NET4_0
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: nch
+    prop:
+      l: 1.98291457286432e-07
+      m: 1
+      nf: 1
+      w: 8.86e-06
+  M3_0:
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET5_0
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET5_0
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: pch
+    prop:
+      l: 1.98291457286432e-07
+      m: 1
+      nf: 1
+      w: 2.439215592728993e-06
+  M2_0:
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET_1
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET5_0
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: pch
+    prop:
+      l: 1.98291457286432e-07
+      m: 1
+      nf: 1
+      w: 2.439215592728993e-06
+  M4_1:
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET_VB_P
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_VB_P
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: pch
+    prop:
+      l: 1.2641595936518162e-06
+      m: 1
+      nf: 1
+      w: 1.5e-06
+  M1_1:
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET_2
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET7_1
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: nch
+    prop:
+      l: 5.205909770932892e-07
+      m: 1
+      nf: 1
+      w: 1.5e-06
+  M0_1:
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET7_1
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET7_1
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: nch
+    prop:
+      l: 5.205909770932892e-07
+      m: 1
+      nf: 1
+      w: 1.5e-06
+  M3_1:
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET_2
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_VB_P
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: pch
+    prop:
+      l: 2.2572864321608e-07
+      m: 1
+      nf: 1
+      w: 9.81e-06
+  M2_1:
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET7_1
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_1
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: pch
+    prop:
+      l: 2.2572864321608e-07
+      m: 1
+      nf: 1
+      w: 9.81e-06
+  M2_2:
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET_VB_N
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_VB_N
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: nch
+    prop:
+      l: 1.2524156140174506e-05
+      m: 1
+      nf: 1
+      w: 1.5e-06
+  M0_2:
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET_VO
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_VB_N
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: nch
+    prop:
+      l: 1.4517670486747733e-06
+      m: 1
+      nf: 1
+      w: 1.5e-06
+  M1_2:
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET_VO
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_2
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: pch
+    prop:
+      l: 2.80603015075377e-07
+      m: 1
+      nf: 1
+      w: 2.85e-06
+  C_2:
+    cell_name: mimcap
+    instpins:
+      BOT:
+        direction: inputOutput
+        net_name: NET_1_VO
+        num_bits: 1
+      TOP:
+        direction: inputOutput
+        net_name: NET_1
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: mimcap
+    prop:
+      l: 30u
+      m: 1
+      w: 30u
+  M2_3:
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET_VB_N
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_VB_N
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: nch
+    prop:
+      l: 1.240195193886043e-05
+      m: 1
+      nf: 1
+      w: 1.5e-06
+  M0_3:
+    cell_name: nmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET_1_VO
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_VB_N
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: nch
+    prop:
+      l: 2.3944605496152907e-06
+      m: 1
+      nf: 1
+      w: 1.5e-06
+  M1_3:
+    cell_name: pmos2v
+    instpins:
+      B:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+      D:
+        direction: inputOutput
+        net_name: NET_1_VO
+        num_bits: 1
+      G:
+        direction: inputOutput
+        net_name: NET_VO
+        num_bits: 1
+      S:
+        direction: inputOutput
+        net_name: VDD
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: pch
+    prop:
+      l: 2.44020100502512e-07
+      m: 1
+      nf: 1
+      w: 1.5e-06
+  R_0:
+    cell_name: rphripoly
+    instpins:
+      MINUS:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: NET_1
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: rppolyhri
+    prop:
+      l: 8602.0u
+      m: 1
+      w: 1u
+  R_1:
+    cell_name: rphripoly
+    instpins:
+      MINUS:
+        direction: inputOutput
+        net_name: NET_2_0
+        num_bits: 1
+      PLUS:
+        direction: inputOutput
+        net_name: NET_2
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: rppolyhri
+    prop:
+      l: 8602.0u
+      m: 1
+      w: 1u
+  C_3:
+    cell_name: mimcap
+    instpins:
+      BOT:
+        direction: inputOutput
+        net_name: GND
+        num_bits: 1
+      TOP:
+        direction: inputOutput
+        net_name: NET_2_0
+        num_bits: 1
+    lib_name: tsmc18rf
+    modelName: mimcap
+    prop:
+      l: 30u
+      m: 1
+      w: 30u
+lib_name: OPAMP
+pins:
+- VDD
+- GND
+- NET_VIP
+- NET_VIN
+- NET_VO
+- NET_VB_N
+- NET_VB_P

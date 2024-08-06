@@ -1,0 +1,69 @@
+****************************************************************************
+* auCdl Netlist:
+* 
+* Library Name: OPAMP
+* Top Cell Name: OPAMP_0
+* View Name: schematic
+* Netlisted on: Wed Jul 24 14:18:47 2024
+****************************************************************************
+*.BIPOLAR
+*.RESI = 2000
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+
+
+****************************************************************************
+* Library Name: OPAMP
+* Cell Name: OPAMP_0
+* View Name: schematic
+****************************************************************************
+.SUBCKT OPAMP_0 VDD GND NET_VIP NET_VIN NET_VO NET_VB_N NET_VB_P
+******************
+* Library Name: OPAMP
+* Cell Name: gm_positive_diff_0
+* View Name: schematic
+M5_0 NET_VB_N NET_VB_N GND GND N l=1.880528609725673e-06 w=1.5e-06 m=1
+M4_0 NET4_0 NET_VB_N GND GND N l=1.98291457286432e-07 w=1.772e-05 m=1
+M1_0 NET5_0 NET_VIN NET4_0 GND N l=1.98291457286432e-07 w=8.86e-06 m=1
+M0_0 NET_1 NET_VIP NET4_0 GND N l=1.98291457286432e-07 w=8.86e-06 m=1
+M3_0 NET5_0 NET5_0 VDD VDD P l=1.98291457286432e-07 w=2.439215592728993e-06 m=1
+M2_0 NET_1 NET5_0 VDD VDD P l=1.98291457286432e-07 w=2.439215592728993e-06 m=1
+******************
+******************
+* Library Name: OPAMP
+* Cell Name: gm_negative_mid_1
+* View Name: schematic
+M4_1 NET_VB_P NET_VB_P VDD VDD P l=1.2641595936518162e-06 w=1.5e-06 m=1
+M1_1 NET_2 NET7_1 GND GND N l=5.205909770932892e-07 w=1.5e-06 m=1
+M0_1 NET7_1 NET7_1 GND GND N l=5.205909770932892e-07 w=1.5e-06 m=1
+M3_1 NET_2 NET_VB_P VDD VDD P l=2.2572864321608e-07 w=9.81e-06 m=1
+M2_1 NET7_1 NET_1 VDD VDD P l=2.2572864321608e-07 w=9.81e-06 m=1
+******************
+******************
+* Library Name: OPAMP
+* Cell Name: gm_positive_mid_2
+* View Name: schematic
+M2_2 NET_VB_N NET_VB_N GND GND N l=1.2524156140174506e-05 w=1.5e-06 m=1
+M0_2 NET_VO NET_VB_N GND GND N l=1.4517670486747733e-06 w=1.5e-06 m=1
+M1_2 NET_VO NET_2 VDD VDD P l=2.80603015075377e-07 w=2.85e-06 m=1
+******************
+C_2 NET_1 NET_1_VO 0.013p m=1 $.MODEL=M5
+******************
+* Library Name: OPAMP
+* Cell Name: gm_positive_mid_3
+* View Name: schematic
+M2_3 NET_VB_N NET_VB_N GND GND N l=1.240195193886043e-05 w=1.5e-06 m=1
+M0_3 NET_1_VO NET_VB_N GND GND N l=2.3944605496152907e-06 w=1.5e-06 m=1
+M1_3 NET_1_VO NET_VO VDD VDD P l=2.44020100502512e-07 w=1.5e-06 m=1
+******************
+R_0 NET_1 GND 0.813M m=1 $.MODEL=LR
+R_1 NET_2 NET_2_0 6.824M m=1 $.MODEL=LR
+C_3 NET_2_0 GND 6.08p m=1 $.MODEL=M5
+.ENDS
+
+

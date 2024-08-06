@@ -1,0 +1,6 @@
+// Automated generated for schematic mapping
+// Generated for: spectre
+// Generated on: Wed Jul 24 11:59:39 2024
+simulator lang=spectre
+global 0 vdd! vss!
+// Header End 
